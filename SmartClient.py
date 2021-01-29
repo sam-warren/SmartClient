@@ -147,9 +147,9 @@ else:
 # print results
 print("---RESULTS---")
 print("website: " + sys.argv[1])
-print("1. Supports of HTTPS: " + parse_result(supportsSSL))
+print("1. Supports of HTTPS: \t" + parse_result(supportsSSL))
 print("2. Supports of http1.1: " + parse_result(supportsHttp1))
-print("3. Supports of http2: " + parse_result(supportsHttp2))
+print("3. Supports of http2: \t" + parse_result(supportsHttp2))
 if len(cookies) > 0:
     print("4. List of cookies:")
     for cookie in cookies:
