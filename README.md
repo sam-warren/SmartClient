@@ -1,5 +1,6 @@
-Sam Warren V00889558
-CSC 361 Programming Assignment #1
+Sam Warren <br/>
+V00889558 <br/>
+CSC 361 Programming Assignment #1 <br/>
 Spring 2021
 
 ### Running SmartClient
