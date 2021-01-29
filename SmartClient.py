@@ -3,6 +3,12 @@ import sys
 import socket
 import ssl
 
+if(len(sys.argv) != 2):
+    print("ERROR: Invalid arguments. SmartClient accepts exactly one argument: the URL to be analyzed.")
+    sys.exit()
+
+socket.setdefaulttimeout(10)
+
 hostname = sys.argv[1]
 httpVersion = "HTTP/1.1"
 # preface = "PRI * HTTP/2.0\r\n\r\nSM\r\n\r\n"
